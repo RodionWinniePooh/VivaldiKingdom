@@ -1,5 +1,4 @@
-# Vivaldi-Kingdom
-Vivaldi Kingdom - 2D platformer
+# 🎮 Vivaldi Kingdom 2D platformer
 
 
 
