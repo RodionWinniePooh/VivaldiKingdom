@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 291430406090.4,"dur": 1154038.9, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 291430422686.1,"dur": 199326.2, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 291430633371.8,"dur": 885302.7, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "01/07/2023 23:20:28",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.6f1\\Editor\\Unity.exe\" -projectpath \"C:\\Users\\rodio\\Documents\\GitHub\\Games Unity\\Vivaldi Kingdom\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-rodio -hubSessionId ea77d4e0-8eb5-11ed-aec4-972750be4192",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.6f1\\Editor\\Unity.exe -projectpath C:\\Users\\rodio\\Documents\\GitHub\\Games Unity\\Vivaldi Kingdom -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-rodio -hubSessionId ea77d4e0-8eb5-11ed-aec4-972750be4192",
+"meta_user_name": "rodio",
+"meta_os_version": "Microsoft Windows NT 10.0.22000.0",
+"meta_cpu_count": "8"
+}
